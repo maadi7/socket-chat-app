@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Balsamiq+Sans&family=Mochiy+Pop+P+One&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap");
+
+.message_container {
+  height: 60vh;
+  width: 40vw;
+  border: 2px solid black;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(2, 2, 2);
+  color: white;
+  border-radius: 15px;
+  width: 41%;
+}
+
+.message {
+  width: auto;
+  height: auto;
+  min-height: 40px;
+  min-width: 100px;
+  max-width: 50%;
+  word-break: break-all;
+  font-weight: bold;
+  overflow-wrap: break-word;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(99, 99, 228);
+  margin: 5px 5px;
+  align-items: flex-start;
+  border: 2px solid black;
+  border-radius: 0px 15px 0px 15px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.message p {
+  overflow-wrap: break-word;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.author {
+  margin: 5px 5px;
+  background-color: wheat;
+  font-size: small;
+  border: 2px solid black;
+  border-radius: 8px;
+  float: left;
+  min-width: 30px;
+  max-width: 100%;
+
+  width: auto;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.information {
+  width: 45%;
+}
+#you {
+  font-family: "Baloo Bhai 2", cursive;
+  float: right;
+  clear: both;
+  align-items: flex-start;
+}
+#other {
+  background-color: greenyellow;
+  float: left;
+  clear: both;
+  align-items: flex-start;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.inp {
+  width: 38%;
+  height: 26px;
+  font-size: 16px;
+}
+.btn {
+  height: 28px;
+  width: 35px;
+  margin-top: 2px;
+}
