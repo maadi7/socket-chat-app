@@ -12,11 +12,11 @@ function App() {
   const [log, setLog] = useState(false);
 
   const  joinChat = () => {
-     if(username.length < 3){
-alert("username should contain at least 3 characters");
+     if(username.length < 6){
+alert("username should contain at least 6 characters");
 setUserName("");
 }
-     if(username.length >= 3 && room !== ""){
+     if(username.length >= 6 && room !== ""){
        setLog(true);
        socket.emit("join_chat", room);
      }
