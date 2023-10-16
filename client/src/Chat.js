@@ -32,7 +32,7 @@ function Chat({username, room, socket}){
         <>
         <div className="main">
             <div className="header">
-                <h3>HELLO FROM ADI</h3>
+                <h3>HELLO FROM {username===""?'No one is in the chat': username}</h3>
             </div>
             <div className="body_message">
             <ScrollToBottom className='message_container'>
@@ -54,7 +54,7 @@ function Chat({username, room, socket}){
             </div>
         </div>
             <div className="footer">
-                <input className="inp" type="text" placeholder="...."
+                <input className="inp" type="text" placeholder="Say something...."
                 value={input}
                 onChange={(event) =>{
                  setInput(event.target.value);
