@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: #f0f0f0;
+    /* Background color */
+    font-family: Arial, sans-serif;
+    /* Font style */
+}
+
+/* Style the header with a background color, padding, and text alignment */
+header {
+    background-color: #25394d;
+    /* Header background color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Style the logo in the header */
+header .logo {
+    font-size: 36px;
+    color: #fff;
+    /* Header text color */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    /* Adjust spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    /* Menu item text color */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Style the main content */
+#root {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1c2127;
+    /* Heading text color */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    /* Paragraph text color */
+}
+
+/* Style the team and mission sections */
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #35495e;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Add custom styles for additional content */
+/* Customize further as needed */
