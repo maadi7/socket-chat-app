@@ -4,6 +4,9 @@
   height: 60vh;
   width: 40vw;
   border: 2px solid black;
+  background: rgb(187, 191, 193);
+  background-image: url("C:/Users/ayush/Desktop/ROSP/socket-chat-app/client/public/ranger-4df6c1b6.png");
+  background-size: cover;
 }
 
 .main {
@@ -79,12 +82,13 @@
   font-family: "Baloo Bhai 2", cursive;
 }
 .inp {
-  width: 38%;
+  width: 36%;
   height: 26px;
   font-size: 16px;
 }
 .btn {
-  height: 28px;
-  width: 35px;
-  margin-top: 2px;
+  height: 29px;
+  width: 45px;
+  margin-top: 11px;
+
 }

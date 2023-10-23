@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from "react";
 import io from "socket.io-client";
-import Chat from "./Chat.js";
+import Chat from './Chat';
 
 
 const socket = io.connect("http://localhost:3001");
@@ -12,10 +12,15 @@ function App() {
   const [log, setLog] = useState(false);
 
   const  joinChat = () => {
-     if(username !== "" && room !== ""){
+     if(username.length < 6){
+alert("username should contain at least 6 characters");
+setUserName("");
+}
+     if(username.length >= 6 && room !== ""){
        setLog(true);
        socket.emit("join_chat", room);
      }
+     
   };
   return (
     <div className="App">
